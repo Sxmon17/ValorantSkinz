@@ -1,0 +1,29 @@
+.navigation {
+  background-color: #000000;
+  width: 100vw;
+  height: 10vh;
+  margin: 0px, 100px, 0px, 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navlist {
+  box-shadow: 0px 0px 10px 10;
+}
+.nav-item {
+  width: 20vw;
+  font-family: var(--font-fam);
+  font-size: var(--nav-fs);
+  font-weight: var(--nav-weight);
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+}
+.nav-item a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 10rem;
+}

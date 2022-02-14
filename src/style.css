@@ -1,0 +1,35 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+#shop-content-container {
+  background-color: var(--primary);
+  height: 100%;
+  width: 90vw;
+  padding: 5vh 5vw 0vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 100px;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: darkblue lightblue;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: darkblue;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: darkblue;
+  border-radius: 20px;
+  border: 10px solid lightblue;
+}
